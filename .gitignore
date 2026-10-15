@@ -1,0 +1,28 @@
+# Dependencias
+node_modules/
+
+# Python (scripts/make-icons.py)
+__pycache__/
+*.pyc
+
+# Compilación (se genera con prebuild / gradle)
+mobile/android/
+mobile/ios/
+.gradle/
+.kotlin/
+
+# Expo
+.expo/
+dist/
+web-build/
+
+# Claves y variables locales
+*.jks
+*.p8
+*.p12
+*.key
+*.keystore
+.env*.local
+
+# Sistema
+.DS_Store
